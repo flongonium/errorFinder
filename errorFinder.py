@@ -67,13 +67,13 @@ class MyWindow(QMainWindow):
         count_overall = 1
         keywords = (                                # specify here what you are looking for. @todo: make it parameterizable
             'error99',
-            '8888',
-            '8888'
+            'test',
+            'words'
         )
         errorCodes = {                              # specifie here all errorcodes. @todo destinguish betwenn products
-            1: (62, 'z-axis general'),
-            2: (63, 'z-axis high voltage'),
-            3: (64, 'x-axis')
+            1: (62, 'Z-axis general'),
+            2: (63, 'Z-axis high voltage'),
+            3: (64, 'X-axis')
             }
         result = dict()
         
